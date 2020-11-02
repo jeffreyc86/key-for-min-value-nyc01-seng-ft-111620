@@ -8,5 +8,5 @@ min_value = Float::INFINITY
       min_value = name_hash[key]
     end
   end
-  puts name_hash.key(min_value)
+  return name_hash.key(min_value)
 end
